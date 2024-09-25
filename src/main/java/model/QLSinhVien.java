@@ -31,27 +31,30 @@ public class QLSinhVien {
     
     public void DocDanhSachSinhVien(String filename)
     {
-        
+        //sinh viên viết code 
     }
 
-    public void GhiDanhSachSinhVien(String filename)
+    public boolean GhiDanhSachSinhVien(String filename)
     {      
-          
+        //sinh viên viết code 
+        return true;
     }    
     
-    public void themSV(SinhVien sv)
+    public boolean themSV(SinhVien sv)
     {
-       
+       //sinh viên viết code 
+        return true;
     }  
     
-    public void xoaSV(String maso)
+    public boolean xoaSV(String maso)
     {
-        
+        //sinh viên viết code 
+        return true;
     }     
    
     public void sapXepTheoHocLuc()
     {
-        
+        //sinh viên viết code         
     }   
     
 }

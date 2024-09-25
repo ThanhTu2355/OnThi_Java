@@ -1,15 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-import java.util.Objects;
-
-/**
- *
- * @author ADMIN
- */
 public class SinhVien {
     private String maso;
     private String hoten;
@@ -65,23 +55,8 @@ public class SinhVien {
     public String getHocLuc()
     {
        String kq="";
-       if(diemTB<5)
-       {
-          kq="Yếu";
-       }else if(diemTB<6.5)
-       {
-           kq="Trung bình";
-       }else if(diemTB <7.5)
-       {
-           kq="Khá";
-       }else if(diemTB<9)
-       {
-           kq="Giỏi";
-       }else
-       {
-           kq="Xuất sắc";
-       }       
+       //sinh viên viết code       
        return kq;
-    }   
+    }  
    
 }
