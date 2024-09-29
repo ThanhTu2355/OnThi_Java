@@ -1,6 +1,7 @@
 package model;
 
 public class SinhVien {
+
     private String maso;
     private String hoten;
     private boolean gioitinh;
@@ -52,11 +53,20 @@ public class SinhVien {
         this.diemTB = diemTB;
     }
 
-    public String getHocLuc()
-    {
-       String kq="";
-       //sinh viên viết code       
-       return kq;
-    }  
-   
+    public String getHocLuc() {
+        String kq = "";
+        if (diemTB < 5) {
+            kq = "Yeu";
+        } else if (diemTB < 6.5) {
+            kq = "Trung binh";
+        } else if (diemTB < 7.5) {
+            kq = "Kha";
+        } else if (diemTB < 9) {
+            kq = "Gioi";
+        } else {
+            kq = "Xuat sac";
+        }
+        return kq;
+    }
+
 }
